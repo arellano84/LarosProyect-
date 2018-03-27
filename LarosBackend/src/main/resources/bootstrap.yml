@@ -1,10 +1,10 @@
-spring:
-  application:
-    name: larosConfigData
-
-  cloud:
-    config:
-      uri: ${CONFIG_SERVER:http://localhost:8001}
-      failFast: true
+#spring:
+#  application:
+#    name: larosConfigData
+#
+#  cloud:
+#    config:
+#      uri: ${CONFIG_SERVER:http://localhost:8001}
+#      failFast: true
       
       
