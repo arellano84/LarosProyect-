@@ -23,7 +23,7 @@ import com.laros.repositories.UserRepository;
 @RefreshScope
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins="http://localhost:4200", allowedHeaders="*")
+@CrossOrigin(origins="*", allowedHeaders="*")//http://192.168.0.65:4200
 public class UserController {
 
 	@Autowired

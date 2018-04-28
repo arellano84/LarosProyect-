@@ -20,7 +20,7 @@ import com.laros.repositories.RoleRepository;
 @RefreshScope
 @RestController
 @RequestMapping("/role")
-@CrossOrigin(origins="http://localhost:4200", allowedHeaders="*")
+@CrossOrigin(origins="*", allowedHeaders="*")//http://192.168.0.65:4200
 public class RoleController {
 
 	@Autowired
